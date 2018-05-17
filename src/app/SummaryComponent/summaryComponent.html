@@ -1,0 +1,22 @@
+<header style="text-align: center;padding-top: 20px;">
+  <font size="13" color="blue">Summary Page!</font>
+  <hr>
+</header>
+<main style="padding-left: 2%; padding-right: 2%;">
+  <table id = "table-solution2" class="table-bordered  team-table">
+  <tr>
+    <th bgcolor="#00FF00" class=" text-center" width="8%">Name</th>
+    <th bgcolor="#00FF00" class=" text-center" width="8%">Experience</th>
+    <th bgcolor="#00FF00" class=" text-center" width="8%">Email</th>
+    <th bgcolor="#00FF00"class=" text-center" width="8%">Phone</th>
+  </tr>
+  <tr *ngFor="let s of summary">
+    <td>{{s.name}}</td>
+    <td >{{s.experience}}{{" years"}}</td>
+    <td>{{s.email}}</td>
+    <td>{{s.phone}}</td>
+  </tr>
+
+</table>
+
+</main>

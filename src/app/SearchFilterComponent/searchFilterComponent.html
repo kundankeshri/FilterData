@@ -1,0 +1,26 @@
+<header style="text-align: center;padding-top: 20px;">
+  <font size="13" color="blue">Search Filter!</font>
+  <hr>
+</header>
+<main style="padding-left: 20px;">
+<input #skill list="skill" type="text"  placeholder="Enter Skillsets,tech tools etc" (keyup)="searchSkill($event,skill.value)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input #source list="source" type="text"  placeholder="Enter sources " (keyup)="searchSource($event,source.value)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input #city list="city"  type="text"  placeholder="Enter city name " (keyup)="searchCity($event,city.value)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button type="button" class="btn btn-primary" (click)="search()">Search</button>
+<br/>
+<datalist id="skill">
+  <option *ngFor="let skill of skills">
+          {{ skill }}
+        </option>
+</datalist>
+<datalist id="source">
+  <option *ngFor="let source of sources">
+          {{ source }}
+        </option>
+</datalist>
+<datalist id="city">
+  <option *ngFor="let city of cities">
+          {{ city }}
+        </option>
+</datalist>
+</main>

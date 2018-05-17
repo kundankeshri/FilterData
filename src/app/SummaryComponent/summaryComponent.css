@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid black;
+}
+td{
+  padding-left: 20px;
+}
+
+#table-solution2 {
+  border-collapse: separate;
+  background:#fff;
+  /*border-radius:5px;*/
+  margin:20px auto;
+  box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+  width: 100%;
+  /*border-width: 3px;*/
+  border: none;
+}

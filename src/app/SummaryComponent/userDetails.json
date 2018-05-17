@@ -1,0 +1,102 @@
+[
+  {
+    "skill": "Java",
+    "source": "GIT",
+    "city": "Bangalore",
+    "users": [
+      {
+        "name": "Kundan",
+        "experience": 3,
+        "email": "keshrikundan666@gmail.com",
+        "phone": "9164161993"
+      },
+      {
+        "name": "kumar",
+        "experience": 3,
+        "email": "kundan66@gmail.com",
+        "phone": "9164161956"
+      },
+      {
+        "name": "test",
+        "experience": 5,
+        "email": "kundan6@gmail.com",
+        "phone": "9167161956"
+      }
+    ]
+  },
+  {
+    "skill": "Angular 2",
+    "source": "Naukri",
+    "city": "Bangalore",
+    "users": [
+      {
+        "name": "Saurabh",
+        "experience": 3,
+        "email": "Saurabh66@gmail.com",
+        "phone": "8164161993"
+      },
+      {
+        "name": "kumar",
+        "experience": 3,
+        "email": "Saurabh66@gmail.com",
+        "phone": "7164161956"
+      },
+      {
+        "name": "shrivastava",
+        "experience": 5,
+        "email": "shrivastava7@gmail.com",
+        "phone": "8167161956"
+      }
+    ]
+  },
+  {
+    "skill": "JavaScript",
+    "source": "Linkidin",
+    "city": "Bangalore",
+    "users": [
+      {
+        "name": "vaibhav",
+        "experience": 3,
+        "email": "vaibhav66@gmail.com",
+        "phone": "8194161993"
+      },
+      {
+        "name": "singh",
+        "experience": 3,
+        "email": "Ssingh6@gmail.com",
+        "phone": "7964161956"
+      },
+      {
+        "name": "ravi",
+        "experience": 5,
+        "email": "ravi@gmail.com",
+        "phone": "8169961956"
+      }
+    ]
+  },
+  {
+    "skill": "Typescript",
+    "source": "Times",
+    "city": "Bangalore",
+    "users": [
+      {
+        "name": "nilesh",
+        "experience": 3,
+        "email": "nilesh66@gmail.com",
+        "phone": "8199161993"
+      },
+      {
+        "name": "singh",
+        "experience": 3,
+        "email": "Snilesh6@gmail.com",
+        "phone": "7969161956"
+      },
+      {
+        "name": "ravi",
+        "experience": 5,
+        "email": "ravinilesh@gmail.com",
+        "phone": "8169931956"
+      }
+    ]
+  }
+]
